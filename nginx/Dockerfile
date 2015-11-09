@@ -12,8 +12,8 @@ VOLUME /var/log/nginx
 VOLUME /var/cache/nginx
 
 # Versions
-ENV NGINX_VERSION 1.9.5
-ENV NPS_VERSION 1.9.32.6
+ENV NGINX_VERSION 1.9.6
+ENV NPS_VERSION 1.9.32.10
 
 # Install core dependencies
 RUN apt-get update
