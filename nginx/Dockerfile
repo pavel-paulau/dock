@@ -44,6 +44,7 @@ RUN ./configure \
 	--with-http_v2_module \
 	--with-http_ssl_module \
 	--with-http_realip_module \
+	--with-http_sub_module \
 	--add-module=/root/ngx_pagespeed-release-${NPS_VERSION}-beta
 RUN make
 RUN make install
